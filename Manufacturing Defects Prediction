@@ -2,3 +2,8 @@
 import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
+
+#importing dataset
+df= pd.read_csv(r"/content/manufacturing_defect_dataset.csv")
+df
+
